@@ -1,0 +1,28 @@
+{
+  "name": "@blockmatic/tsconfig",
+  "version": "1.1.4",
+  "license": "MIT",
+  "description": "Common tsconfigs to be used as your base configurations",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockmatic/dev-scripts.git"
+  },
+  "files": [
+    "tsconfig.*.json"
+  ],
+  "scripts": {
+    "test": "./run-tests.sh"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.3"
+  },
+  "peerDependencies": {
+    "typescript": ">=3.2 <4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}

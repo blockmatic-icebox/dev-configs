@@ -1,0 +1,40 @@
+{
+  "name": "@blockmatic/eslint-config",
+  "version": "1.2.0",
+  "description": "Combined ESLint config for Spotify",
+  "author": "Paul Marbach <pmarbach@blockmatic.com>",
+  "homepage": "https://github.com/blockmatic/dev-scripts#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockmatic/dev-scripts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blockmatic/dev-scripts/issues"
+  },
+  "dependencies": {
+    "@blockmatic/eslint-config-base": "^1.1.4",
+    "@blockmatic/eslint-config-react": "^1.1.4",
+    "@blockmatic/eslint-config-typescript": "^1.1.4",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.x"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}

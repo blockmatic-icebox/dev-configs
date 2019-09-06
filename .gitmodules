@@ -1,0 +1,3 @@
+[submodule "packages/create-dev-scripts-library/template"]
+	path = packages/create-dev-scripts-library/template
+	url = https://github.com/blockmatic/dev-scripts-library-template.git
