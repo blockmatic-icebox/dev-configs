@@ -7,6 +7,15 @@ A monorepo of base configs and CLI wrappers used to speed up development @ Block
 
 Want to use it? Check out the [CLI documentation](https://github.com/blockmatic/dev-scripts/blob/master/packages/dev-scripts) to get started!
 
+
+## WIP TODO
+
+- use standardjs
+- allow snake case for eosio compat
+- customized further
+- remove support for es5
+- add react native support ( iamkevinwolf/devtools )
+
 ## About this project
 
 ### dev-scripts CLI
