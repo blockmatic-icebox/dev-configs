@@ -1,6 +1,6 @@
 # eslint-config-typescript
 
-Spotify's TypeScript ESLint config extras.
+Blockmatic's TypeScript ESLint config extras.
 
 ## Installation
 

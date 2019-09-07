@@ -1,8 +1,8 @@
 {
   "name": "@blockmatic/eslint-config-react",
-  "version": "1.1.4",
+  "version": "0.0.0",
   "license": "MIT",
-  "description": "Spotify's ESLint config for React projects",
+  "description": "Blockmatic's ESLint config for React projects",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/blockmatic/dev-scripts.git"

@@ -1,12 +1,11 @@
 {
-  "name": "@blockmatic/create-dev-scripts-library",
-  "version": "1.3.0",
+  "name": "@blockmatic/create-library",
+  "version": "0.0.0",
   "description": "Project scaffolding script for @blockmatic/dev-scripts libraries",
-  "author": "Paul Marbach <pmarbach@blockmatic.com>",
   "homepage": "https://github.com/blockmatic/dev-scripts#readme",
   "license": "MIT",
   "bin": {
-    "create-dev-scripts-library": "bin/create-dev-scripts-library"
+    "create-library": "bin/create-library"
   },
   "main": "cjs/index.js",
   "module": "esm/index.js",
@@ -39,7 +38,7 @@
     "fs-extra": "^7.0.1"
   },
   "devDependencies": {
-    "@blockmatic/dev-scripts": "^1.3.0",
+    "@blockmatic/dev-scripts": "0.0.0",
     "@types/fs-extra": "^7.0.0",
     "tempy": "^0.3.0"
   },

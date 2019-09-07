@@ -1,6 +1,6 @@
 # @blockmatic/eslint-config-base
 
-Spotify's base ESLint config.
+Blockmatic's base ESLint config.
 
 ## Installation
 

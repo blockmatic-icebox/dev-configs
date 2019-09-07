@@ -18,7 +18,7 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@blockmatic/dev-scripts": "^1.0.0",
+    "@blockmatic/dev-scripts": "^0.0.0",
     "@typescript-eslint/eslint-plugin": "^1.11.0",
     "@typescript-eslint/parser": "^1.11.0",
     "eslint": "^5.16.0",

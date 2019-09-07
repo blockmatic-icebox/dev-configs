@@ -20,11 +20,11 @@ yarn add --dev @blockmatic/tsconfig
 
 ## Examples
 
-See the [examples documentation](./examples.md) for detailed guidance on how to set up the Spotify TypeScript config for your any library or app.
+See the [examples documentation](./examples.md) for detailed guidance on how to set up the Blockmatic TypeScript config for your any library or app.
 
 ## Getting Started with TypeScript
 
-Step-by-step guides for setting up TypeScript and the Spotify TypeScript config for Golden Path use cases are available in this repo as well.
+Step-by-step guides for setting up TypeScript and the Blockmatic TypeScript config for Golden Path use cases are available in this repo as well.
 
 - [Create React App](./guides/cra.md)
 

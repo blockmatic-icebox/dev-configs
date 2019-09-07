@@ -7,20 +7,20 @@ A monorepo of base configs and CLI wrappers used to speed up development @ Block
 
 Want to use it? Check out the [CLI documentation](https://github.com/blockmatic/dev-scripts/blob/master/packages/dev-scripts) to get started!
 
+This project is a fork of [spotify/web-scripts](https://github.com/spotify/web-scripts)
 
-## WIP TODO
+## WIP
 
-- use standardjs
-- allow snake case for eosio compat
-- customized further
-- remove support for es5
-- add react native support ( iamkevinwolf/devtools )
+- [ ] use standardjs
+- [ ] allow snake case for eosio compat
+- [ ] customized further
+- [ ] add react native support ( iamkevinwolf/devtools )
 
 ## About this project
 
 ### dev-scripts CLI
 
-[@blockmatic/dev-scripts](./packages/dev-scripts) is a CLI that combines shared configuration for building, linting, testing, formatting, and releasing libraries for Node and the browser. It is opinionated, but allows configuration to avoid lock-in. You can also pick and choose which scripts you use. It is inspired by other tooling bundles like [react-scripts](https://www.npmjs.com/package/react-scripts) and [kcd-scripts](https://www.npmjs.com/package/kcd-scripts).
+[@blockmatic/dev-scripts](./packages/dev-scripts) is a CLI that combines shared configuration for building, linting, testing, formatting, and releasing libraries for Node and the browser. It is opinionated, but allows configuration to avoid lock-in. You can also pick and choose which scripts you use.
 
 ```bash
 yarn add --dev @blockmatic/dev-scripts husky
@@ -54,13 +54,13 @@ View the [full CLI documentation](./packages/dev-scripts) for more details on ho
 
 ### Create a new library
 
-To quickly get started with a new `@blockmatic/dev-scripts` library, you can build one with our [library scaffolding tool](https://github.com/blockmatic/dev-scripts/tree/master/packages/create-dev-scripts-library):
+To quickly get started with a new `@blockmatic/dev-scripts` library, you can build one with our [library scaffolding tool](https://github.com/blockmatic/dev-scripts/tree/master/packages/create-create-library):
 
 ```sh
-yarn create @blockmatic/dev-scripts-library my-library-name
+yarn create @blockmatic/create-library my-library-name
 ```
 
-### Spotify shared configurations
+### Blockmatic shared configurations
 
 The other projects in this repo are shared configurations for common tools we use for building, linting, and formatting our code. They can be installed separately and used by anyone should they opt to follow our standards. We have a [specialized point-of-view on what belongs in our configs](#methodology). They are all used by the dev-scripts CLI by default.
 
@@ -94,8 +94,8 @@ We have a few guiding principles for this project.
 This project adheres to the [Open Code of Conduct][code-of-conduct]. By participating, you are expected to honor this code.
 
 This project is an opinionated approach to static analysis, code formatting, testing, and publishing. It's
-the result of consensus between many web engineers inside Spotify, and the default configs will mostly be
-written by Spotify employees. _We may reject PRs to the ESLint config if we don't agree that the rule
+the result of consensus between many web engineers inside Blockmatic, and the default configs will mostly be
+written by Blockmatic employees. _We may reject PRs to the ESLint config if we don't agree that the rule
 makes sense as part of our baseline, for example._ Use it if it aligns with your needs!
 
 ### Running Tests locally
@@ -121,8 +121,3 @@ For now, we will release this repo manually with fixed versions. To do that, use
 ```sh
 lerna publish --conventional-commits --registry=https://registry.npmjs.com
 ```
-
-
-# Credits
-
-This is a fork of https://github.com/spotify/web-scripts

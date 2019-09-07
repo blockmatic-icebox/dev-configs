@@ -1,6 +1,6 @@
 # eslint-config-react
 
-Spotify's ESLint config for react.
+Blockmatic's ESLint config for react.
 
 ## Installation
 

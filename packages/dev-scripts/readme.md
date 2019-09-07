@@ -91,7 +91,7 @@ dev-scripts test --watch
 
 These parallel builds are set up to share resources and work efficiently.
 
-If you need to use Babel for some reason, that's ok! Simply use babel directly instead of using `dev-scripts build`. Teams inside Spotify mix and match which scripts they use to serve their needs. In many cases, `tsc` is all you need and is lighter and simpler to set up.
+If you need to use Babel for some reason, that's ok! Simply use babel directly instead of using `dev-scripts build`. Teams inside Blockmatic mix and match which scripts they use to serve their needs. In many cases, `tsc` is all you need and is lighter and simpler to set up.
 
 ### Setting up CI publishing (Travis CI)
 
@@ -163,7 +163,7 @@ yarn
 yarn bootstrap
 ```
 
-This library provides shared scripts and configs for creating a library at Spotify. It tries to use as much of those scripts and configs for itself, which is why the `bootstrap` task is required above. Otherwise, you can run within this package itself:
+This library provides shared scripts and configs for creating a library at Blockmatic. It tries to use as much of those scripts and configs for itself, which is why the `bootstrap` task is required above. Otherwise, you can run within this package itself:
 
 ```sh
 yarn lint

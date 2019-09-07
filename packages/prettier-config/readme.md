@@ -1,6 +1,6 @@
 # prettier-config
 
-Spotify's base Prettier config.
+Blockmatic's base Prettier config.
 
 ## Installation
 
