@@ -1,31 +1,31 @@
-import { default as Debug } from 'debug';
-import { default as spawn } from 'cross-spawn';
-import { SpawnSyncReturns } from 'child_process';
+import { default as Debug } from 'debug'
+import { default as spawn } from 'cross-spawn'
+import { SpawnSyncReturns } from 'child_process'
 // @ts-ignore
-import { bootstrap as czBootstrap } from 'commitizen/dist/cli/git-cz';
+import { bootstrap as czBootstrap } from 'commitizen/dist/cli/git-cz'
 
 import {
   CommitTaskDesc,
   CommitMsgTaskDesc,
   ReleaseTaskDesc,
   PrecommitTaskDesc,
-} from '../SharedTypes';
-import { LINT_STAGED_CONFIG } from '../Paths';
+} from '../SharedTypes'
+import { LINT_STAGED_CONFIG } from '../Paths'
 
-const dbg = Debug('dev-scripts:commit'); // eslint-disable-line new-cap
+const dbg = Debug('dev-scripts:commit') // eslint-disable-line new-cap
 
 export function precommitTask(
   task: PrecommitTaskDesc,
 ): SpawnSyncReturns<Buffer> {
-  const cmd = 'npx';
+  const cmd = 'npx'
   const args = [
     '--no-install',
     'lint-staged',
     '--config',
     LINT_STAGED_CONFIG,
     ...task.restOptions,
-  ];
-  dbg('npx args %o', args);
+  ]
+  dbg('npx args %o', args)
   return spawn.sync(cmd, args, {
     env: {
       ...process.env,
@@ -36,16 +36,16 @@ export function precommitTask(
       WEB_SCRIPTS_PRETTIER_CONFIG: task.prettierConfig,
     },
     stdio: 'inherit',
-  });
+  })
 }
 
 export function commitTask(task: CommitTaskDesc): void {
-  dbg('running commitizen commit');
+  dbg('running commitizen commit')
 
   // use this to get the resolved path to the root of the commitizen directory
   const cliPath = require
     .resolve('commitizen/package.json')
-    .replace('package.json', '');
+    .replace('package.json', '')
 
   return czBootstrap(
     {
@@ -58,27 +58,27 @@ export function commitTask(task: CommitTaskDesc): void {
     // satisfy commitizen, which strips the first two
     // (assumes that they're `['node', 'git-cz']`)
     [null, ...task.restOptions],
-  );
+  )
 }
 
 export function commitMsgTask(
   task: CommitMsgTaskDesc,
 ): SpawnSyncReturns<Buffer> {
-  const cmd = 'npx';
+  const cmd = 'npx'
   const args = [
     '--no-install',
     'commitlint',
     `--config=${task.config}`,
     `--edit=${process.env.HUSKY_GIT_PARAMS}`,
     ...task.restOptions,
-  ];
-  dbg('npx args %o', args);
-  return spawn.sync(cmd, args, { stdio: 'inherit' });
+  ]
+  dbg('npx args %o', args)
+  return spawn.sync(cmd, args, { stdio: 'inherit' })
 }
 
 export function releaseTask(task: ReleaseTaskDesc): SpawnSyncReturns<Buffer> {
-  const cmd = 'npx';
-  const args = ['--no-install', 'semantic-release', ...task.restOptions];
-  dbg('npx args %o', args);
-  return spawn.sync(cmd, args, { stdio: 'inherit' });
+  const cmd = 'npx'
+  const args = ['--no-install', 'semantic-release', ...task.restOptions]
+  dbg('npx args %o', args)
+  return spawn.sync(cmd, args, { stdio: 'inherit' })
 }

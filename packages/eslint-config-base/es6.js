@@ -42,5 +42,7 @@ module.exports = {
     'require-yield': 0,
     // disallow trailing commas in object literals
     'comma-dangle': [2, 'always-multiline'],
+    // disallow use of semicolons instead of ASI
+    semi: [2, 'never'],
   },
-};
+}

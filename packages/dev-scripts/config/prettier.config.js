@@ -1,1 +1,1 @@
-module.exports = require('@blockmatic/prettier-config');
+module.exports = require('@blockmatic/prettier-config')

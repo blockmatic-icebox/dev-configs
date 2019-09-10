@@ -7,4 +7,4 @@ module.exports = {
       ['sentence-case', 'start-case', 'pascal-case', 'upper-case'],
     ],
   },
-};
+}

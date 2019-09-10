@@ -1,5 +1,5 @@
-import program from 'commander';
-import chalk from 'chalk';
+import program from 'commander'
+import chalk from 'chalk'
 
 export const missingProjectName = () => `
 Please specify the project directory:
@@ -8,12 +8,12 @@ Please specify the project directory:
 For example:
   ${chalk.cyan(program.name())} ${chalk.green('my-library-name')}
 Run ${chalk.cyan(`${program.name()} --help`)} to see all options.
-`;
+`
 
 export const alreadyExists = (projectName: string) => `
 It looks like there's already a directory called "${chalk.cyan(
     projectName,
-  )}". Please try a different name or delete that folder.`;
+  )}". Please try a different name or delete that folder.`
 
 export const start = (projectName: string) => `
 Your project is now set up in "${chalk.cyan(projectName)}"! Try running
@@ -24,4 +24,4 @@ Your project is now set up in "${chalk.cyan(projectName)}"! Try running
 
 to see the dev-scripts in action. When you're ready to publish your package, use ${chalk.green(
     'yarn commit',
-  )} and ${chalk.green('yarn release')} to use commitizen and semantic-release.`;
+  )} and ${chalk.green('yarn release')} to use commitizen and semantic-release.`

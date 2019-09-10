@@ -1,5 +1,5 @@
-import program, { Command } from 'commander';
-import { SpawnSyncReturns } from 'child_process';
+import program, { Command } from 'commander'
+import { SpawnSyncReturns } from 'child_process'
 
 import {
   TestTaskDesc,
@@ -9,24 +9,24 @@ import {
   CommitMsgTaskDesc,
   ReleaseTaskDesc,
   PrecommitTaskDesc,
-} from './SharedTypes';
-import { JEST_CONFIG, COMMITLINT_CONIFG, PRETTIER_CONFIG } from './Paths';
-import { testTask } from './Tasks/TestTask';
-import { buildTask } from './Tasks/BuildTask';
-import { lintTask } from './Tasks/LintTask';
+} from './SharedTypes'
+import { JEST_CONFIG, COMMITLINT_CONIFG, PRETTIER_CONFIG } from './Paths'
+import { testTask } from './Tasks/TestTask'
+import { buildTask } from './Tasks/BuildTask'
+import { lintTask } from './Tasks/LintTask'
 import {
   commitTask,
   commitMsgTask,
   releaseTask,
   precommitTask,
-} from './Tasks/CommitTasks';
+} from './Tasks/CommitTasks'
 
 program
   .command('init')
   .description('initialize your package to use dev-scripts')
   .action(() => {
-    throw new Error('unimplemented');
-  });
+    throw new Error('unimplemented')
+  })
 
 program
   .command('build')
@@ -36,17 +36,17 @@ program
   .option('--no-cjs', 'do not build cjs target')
   .option('--no-types', 'do not build types target')
   .action((cmd: Command) => {
-    const { esm, types, cjs } = cmd.opts();
+    const { esm, types, cjs } = cmd.opts()
     const t: BuildTaskDesc = {
       name: 'build',
       esm,
       types,
       cjs,
       restOptions: parseRestOptions(cmd),
-    };
+    }
 
-    handlePromiseResult(buildTask(t));
-  });
+    handlePromiseResult(buildTask(t))
+  })
 
 program
   .command('test')
@@ -54,16 +54,16 @@ program
   .description('Run tests via jest')
   .option('--config [path]', 'path to jest config', JEST_CONFIG)
   .action((cmd: Command) => {
-    const { config } = cmd.opts();
+    const { config } = cmd.opts()
     const t: TestTaskDesc = {
       name: 'test',
       config,
       restOptions: parseRestOptions(cmd),
-    };
+    }
 
-    const result = testTask(t);
-    handleSpawnResult(result);
-  });
+    const result = testTask(t)
+    handleSpawnResult(result)
+  })
 
 program
   .command('lint')
@@ -72,16 +72,16 @@ program
   .option('--config [path]', 'path to ESLint config')
   .option('--typecheck', 'run a TypeScript type check')
   .action((cmd: Command) => {
-    const { typecheck, config } = cmd.opts();
+    const { typecheck, config } = cmd.opts()
     const t: LintTaskDesc = {
       name: 'lint',
       config,
       typecheck,
       restOptions: parseRestOptions(cmd),
-    };
+    }
 
-    handlePromiseResult(lintTask(t));
-  });
+    handlePromiseResult(lintTask(t))
+  })
 
 program
   .command('precommit')
@@ -103,7 +103,7 @@ program
       'jest-config': jestConfig,
       'eslint-config': eslintConfig,
       'prettier-config': prettierConfig,
-    } = cmd.opts();
+    } = cmd.opts()
     const t: PrecommitTaskDesc = {
       name: 'precommit',
       fix,
@@ -112,10 +112,10 @@ program
       eslintConfig,
       prettierConfig,
       restOptions: parseRestOptions(cmd),
-    };
+    }
 
-    handleSpawnResult(precommitTask(t));
-  });
+    handleSpawnResult(precommitTask(t))
+  })
 
 program
   .command('commit')
@@ -127,19 +127,19 @@ program
     'cz-conventional-changelog',
   )
   .action((cmd: Command) => {
-    const { path } = cmd.opts();
+    const { path } = cmd.opts()
     const t: CommitTaskDesc = {
       name: 'commit',
       path,
       restOptions: parseRestOptions(cmd),
-    };
+    }
 
     try {
-      commitTask(t);
+      commitTask(t)
     } catch (err) {
-      handleError(err);
+      handleError(err)
     }
-  });
+  })
 
 program
   .command('commitmsg')
@@ -151,15 +151,15 @@ program
     COMMITLINT_CONIFG,
   )
   .action((cmd: Command) => {
-    const { config } = cmd.opts();
+    const { config } = cmd.opts()
     const t: CommitMsgTaskDesc = {
       name: 'commitmsg',
       config,
       restOptions: parseRestOptions(cmd),
-    };
+    }
 
-    handleSpawnResult(commitMsgTask(t));
-  });
+    handleSpawnResult(commitMsgTask(t))
+  })
 
 program
   .command('release')
@@ -169,39 +169,39 @@ program
     const t: ReleaseTaskDesc = {
       name: 'release',
       restOptions: parseRestOptions(cmd),
-    };
+    }
 
-    handleSpawnResult(releaseTask(t));
-  });
+    handleSpawnResult(releaseTask(t))
+  })
 
 function handlePromiseResult(result: Promise<any>) {
-  result.catch(handleError);
+  result.catch(handleError)
 }
 
 function handleError(error: Error) {
   /* eslint-disable no-console */
-  console.error(error);
+  console.error(error)
   /* eslint-enable no-console */
-  process.exit(1);
+  process.exit(1)
 }
 
 function handleSpawnResult(result: SpawnSyncReturns<Buffer>) {
   if (result.error) {
-    throw result.error;
+    throw result.error
   }
 
   if (result.status !== 0) {
-    process.exit(result.status === null ? 0 : result.status);
+    process.exit(result.status === null ? 0 : result.status)
   }
 }
 
 function parseRestOptions(cmd: Command) {
   // parse the rest of the options
-  return cmd.parseOptions(process.argv).unknown;
+  return cmd.parseOptions(process.argv).unknown
 }
 
-program.parse(process.argv);
+program.parse(process.argv)
 
 if (program.args.length === 0) {
-  program.help();
+  program.help()
 }
