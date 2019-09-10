@@ -1,6 +1,6 @@
 {
   "name": "@blockmatic/dev-scripts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "description": "Build, lint, test, format, and release your JS/TS library.",
   "repository": {
