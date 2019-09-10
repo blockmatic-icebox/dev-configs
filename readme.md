@@ -9,13 +9,6 @@ Want to use it? Check out the [CLI documentation](https://github.com/blockmatic/
 
 This project is a fork of [spotify/web-scripts](https://github.com/spotify/web-scripts)
 
-## WIP
-
-- [ ] use standardjs
-- [ ] allow snake case for eosio compat
-- [ ] customized further
-- [ ] add react native support ( iamkevinwolf/devtools )
-
 ## About this project
 
 ### dev-scripts CLI
@@ -121,3 +114,9 @@ For now, we will release this repo manually with fixed versions. To do that, use
 ```sh
 lerna publish --conventional-commits --registry=https://registry.npmjs.com
 ```
+
+## WIP
+
+- [ ] use standardjs ?
+- [ ] allow snake case for eosio compat
+- [ ] add react native support ( iamkevinwolf/devtools )
