@@ -54,10 +54,10 @@ View the [full CLI documentation](./packages/dev-scripts) for more details on ho
 
 ### Create a new library
 
-To quickly get started with a new `@blockmatic/dev-scripts` library, you can build one with our [library scaffolding tool](https://github.com/blockmatic/dev-scripts/tree/master/packages/create-create-library):
+To quickly get started with a new `@blockmatic/dev-scripts` library, you can build one with our [library scaffolding tool](https://github.com/blockmatic/dev-scripts/tree/master/packages/create-create-lib):
 
 ```sh
-yarn create @blockmatic/create-library my-library-name
+yarn create @blockmatic/create-lib my-library-name
 ```
 
 ### Blockmatic shared configurations

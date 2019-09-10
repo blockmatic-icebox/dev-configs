@@ -1,11 +1,11 @@
 {
-  "name": "@blockmatic/create-library",
+  "name": "@blockmatic/create-lib",
   "version": "0.0.0",
   "description": "Project scaffolding script for @blockmatic/dev-scripts libraries",
   "homepage": "https://github.com/blockmatic/dev-scripts#readme",
   "license": "MIT",
   "bin": {
-    "create-library": "bin/create-library"
+    "create-lib": "bin/create-lib"
   },
   "main": "cjs/index.js",
   "module": "esm/index.js",
