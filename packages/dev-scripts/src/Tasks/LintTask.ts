@@ -53,6 +53,8 @@ async function eslintRun(task: LintTaskDesc): Promise<string> {
     '--ignore-pattern',
     'cjs/',
     '--ignore-pattern',
+    '__dev/',
+    '--ignore-pattern',
     'esm/',
     ...(config ? ['--config', config] : []),
     ...task.restOptions,
