@@ -114,9 +114,3 @@ For now, we will release this repo manually with fixed versions. To do that, use
 ```sh
 lerna publish --conventional-commits --registry=https://registry.npmjs.com
 ```
-
-## WIP
-
-- [ ] use standardjs ?
-- [ ] allow snake case for eosio compat
-- [ ] add react native support ( iamkevinwolf/devtools )
