@@ -3,7 +3,7 @@
   "version": "1.1.5",
   "description": "Project scaffolding script for @blockmatic/dev-scripts libraries",
   "homepage": "https://github.com/blockmatic/dev-scripts#readme",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "bin": {
     "create-lib": "bin/create-lib"
   },
@@ -23,7 +23,6 @@
     "url": "git+https://github.com/blockmatic/dev-scripts.git"
   },
   "scripts": {
-    "clean": "rm -rf cjs esm types",
     "test": "dev-scripts test",
     "build": "dev-scripts build",
     "lint": "dev-scripts lint",
@@ -48,6 +47,5 @@
   },
   "engines": {
     "node": ">=10"
-  },
-  "gitHead": "5a89c63f865f6444e009808bc228f14795425ba0"
+  }
 }

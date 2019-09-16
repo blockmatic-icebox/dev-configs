@@ -3,7 +3,7 @@ import path from 'path'
 import execa from 'execa'
 import fs from 'fs-extra'
 
-import createWebScriptsLibrary from '../src'
+import createWebScriptsLibrary from '.'
 import getInstallCmd from './get-install-cmd'
 
 describe('integration test', () => {

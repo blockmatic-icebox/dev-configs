@@ -1,7 +1,7 @@
 import program from 'commander'
 import chalk from 'chalk'
 
-import createWebScriptsLibrary from '../src'
+import createWebScriptsLibrary from '.'
 
 // MUST require and not import this to avoid wrecking the
 // file structure in the build output.

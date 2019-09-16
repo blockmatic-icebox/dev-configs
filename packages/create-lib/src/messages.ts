@@ -22,6 +22,6 @@ Your project is now set up in "${chalk.cyan(projectName)}"! Try running
   ${chalk.green('yarn test')}
   ${chalk.green('yarn build')}
 
-to see the dev-scripts in action. When you're ready to publish your package, use ${chalk.green(
+to see the web-scripts in action. When you're ready to publish your package, use ${chalk.green(
     'yarn commit',
   )} and ${chalk.green('yarn release')} to use commitizen and semantic-release.`

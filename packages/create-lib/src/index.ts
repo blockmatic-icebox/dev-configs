@@ -32,12 +32,7 @@ export default async function createWebScriptsLibrary(projectName?: string) {
 
   console.log(chalk.gray('Installing dependencies...'))
   process.chdir(projectPath)
-
-  try {
-    await execa(getInstallCmd(), ['install'])
-  } catch (error) {
-    console.log(error)
-  }
+  await execa(getInstallCmd(), ['install'])
 
   console.log(messages.start(projectName))
 }
