@@ -23,6 +23,7 @@
     "url": "git+https://github.com/blockmatic/dev-scripts.git"
   },
   "scripts": {
+    "clean": "rm -rf cjs esm types",
     "test": "dev-scripts test",
     "build": "dev-scripts build",
     "lint": "dev-scripts lint",
