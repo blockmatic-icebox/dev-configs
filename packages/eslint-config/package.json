@@ -1,6 +1,6 @@
 {
   "name": "@blockmatic/eslint-config",
-  "version": "1.0.1",
+  "version": "1.1.7",
   "description": "Combined ESLint config for Blockmatic",
   "homepage": "https://github.com/blockmatic/dev-scripts#readme",
   "license": "MIT",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@blockmatic/eslint-config-base": "^1.0.0",
-    "@blockmatic/eslint-config-react": "^1.0.0",
+    "@blockmatic/eslint-config-react": "^1.1.7",
     "@blockmatic/eslint-config-typescript": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^1.11.0",
     "@typescript-eslint/parser": "^1.11.0",
