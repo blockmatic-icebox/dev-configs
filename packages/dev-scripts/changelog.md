@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.2.0 (2019-09-28)
+
+### Features
+
+- ignore lib/ in lint task ([bcf0d88](https://github.com/blockmatic/dev-scripts/commit/bcf0d88))
+
+## 1.1.7 (2019-09-27)
+
+## 1.1.5 (2019-09-16)
+
+## 1.1.3 (2019-09-16)
+
+# 1.1.0 (2019-09-15)
+
+## 1.0.1 (2019-09-10)
+
+# 1.0.0 (2019-09-10)
+
+## 1.3.1 (2019-09-10)
+
 ## [1.1.3](https://github.com/blockmatic/dev-scripts/compare/v1.1.2...v1.1.3) (2019-09-16)
 
 **Note:** Version bump only for package @blockmatic/dev-scripts
