@@ -5,7 +5,7 @@
     "allowSyntheticDefaultImports": true,
     "declaration": false,
     "lib": ["dom", "dom.iterable", "esnext"],
-    "jsx": "preserve",
+    "jsx": "react",
     "noEmit": true,
     "target": "es5"
   }
