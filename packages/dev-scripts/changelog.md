@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/blockmatic/dev-scripts/compare/@blockmatic/dev-scripts@1.2.0...@blockmatic/dev-scripts@1.2.1) (2019-09-28)
+
+### Features
+
+- update jest config ([14c0809](https://github.com/blockmatic/dev-scripts/commit/14c0809))
+
 # 1.2.0 (2019-09-28)
 
 ### Features
