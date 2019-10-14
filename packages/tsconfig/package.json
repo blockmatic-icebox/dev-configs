@@ -1,6 +1,6 @@
 {
   "name": "@blockmatic/tsconfig",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "license": "MIT",
   "description": "Common tsconfigs to be used as your base configurations",
   "repository": {
