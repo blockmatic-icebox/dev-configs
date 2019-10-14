@@ -1,8 +1,5 @@
 # @blockmatic/dev-scripts
 
-[![Actions Status](https://github.com/blockmatic/dev-scripts/workflows/Tests/badge.svg)](https://github.com/blockmatic/dev-scripts/actions)
-[![Version](https://img.shields.io/npm/v/@blockmatic/dev-scripts.svg)](https://www.npmjs.com/package/@blockmatic/dev-scripts)
-
 A monorepo of base configs and CLI wrappers used to speed up development @ Blockmatic.
 
 Want to use it? Check out the [CLI documentation](https://github.com/blockmatic/dev-scripts/blob/master/packages/dev-scripts) to get started!
