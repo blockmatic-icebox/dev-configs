@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['react', 'jsx-a11y'],
+  plugins: ['react', 'jsx-a11y', 'react-hooks'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,

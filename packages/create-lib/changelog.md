@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.13](https://github.com/blockmatic/dev-scripts/compare/@blockmatic/create-lib@1.1.12...@blockmatic/create-lib@1.1.13) (2019-10-20)
+
+**Note:** Version bump only for package @blockmatic/create-lib
+
 ## [1.1.11](https://github.com/blockmatic/dev-scripts/compare/@blockmatic/create-lib@1.1.8...@blockmatic/create-lib@1.1.11) (2019-10-14)
 
 **Note:** Version bump only for package @blockmatic/create-lib
