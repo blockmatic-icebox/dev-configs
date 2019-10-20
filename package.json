@@ -12,7 +12,8 @@
     "lint": "lerna run lint --stream",
     "commit": "dev-scripts commit",
     "bootstrap": "lerna bootstrap --use-workspaces",
-    "release": "./release.sh"
+    "release": "env-cmd lerna publish",
+    "diff": "lerna diff"
   },
   "workspaces": [
     "packages/*"

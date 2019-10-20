@@ -208,8 +208,8 @@ module.exports = {
     'array-bracket-spacing': 0,
     // enforce one true brace style
     'brace-style': [2, '1tbs', { allowSingleLine: true }],
-    // require camel case names
-    camelcase: [2, { properties: 'never' }],
+    // disable camel case enforcement
+    camelcase: 0,
     // enforce spacing before and after comma
     'comma-spacing': [2, { before: false, after: true }],
     // enforce one true comma style
