@@ -1,6 +1,6 @@
 {
   "name": "@blockmatic/dev-scripts",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "license": "MIT",
   "description": "Build, lint, test, format, and release your JS/TS library.",
   "repository": {
@@ -30,7 +30,7 @@
     "prepare": "$npm_execpath run bootstrap"
   },
   "dependencies": {
-    "@blockmatic/eslint-config": "^1.1.8",
+    "@blockmatic/eslint-config": "^1.2.0",
     "@blockmatic/prettier-config": "^1.0.4",
     "@blockmatic/tsconfig": "^1.2.4",
     "@commitlint/cli": "^7.5.2",
