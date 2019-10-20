@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.1](https://github.com/blockmatic/dev-scripts/compare/@blockmatic/dev-scripts@1.6.0...@blockmatic/dev-scripts@1.6.1) (2019-10-20)
+
+### Bug Fixes
+
+- tscofig version ([67e8b49](https://github.com/blockmatic/dev-scripts/commit/67e8b49))
+
 ## [1.5.1](https://github.com/blockmatic/dev-scripts/compare/@blockmatic/dev-scripts@1.5.0...@blockmatic/dev-scripts@1.5.1) (2019-10-20)
 
 **Note:** Version bump only for package @blockmatic/dev-scripts
