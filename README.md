@@ -139,7 +139,7 @@ MIT © Blockmatic
 
 ## Blockmatic
 
-Blockmatic is building robust ecosystem of people and tools for development of decentralized applications (dApps) and fintech solutions.
+Blockmatic is building a robust ecosystem of people and tools for development of decentralized applications (dApps) and fintech solutions.
 
 [blockmatic.io](https://blockmatic.io)  
 
