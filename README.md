@@ -26,7 +26,7 @@ Want to use it? Check out the [CLI documentation](https://github.com/blockmatic/
 
 ## Motivation
 
-At Blockmatic we want to share a common [programming philosophy](https://developers.blockmatic.io), code style and enviroment configuration to maximize reusability and facilitate collaboration.
+At Blockmatic we want to share a common [programming philosophy](https://developers.blockmatic.io), code style and environment configuration to maximize reusability and facilitate collaboration.
 
 ### dev-scripts CLI
 
@@ -135,13 +135,12 @@ This project is a fork of [spotify/web-scripts](https://github.com/spotify/web-s
 
 MIT © Blockmatic
 
----
-
 ## Blockmatic
 
-Blockmatic is building a robust ecosystem of people and tools for development of decentralized applications (dApps) and fintech solutions.
+Blockmatic is building robust ecosystem of people and tools for development of decentralized applications.
 
-[blockmatic.io](https://blockmatic.io)  
+[blockmatic.io](https://blockmatic.io)
+
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 
