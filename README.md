@@ -19,7 +19,7 @@
 
 A monorepo of base configs to speed up development @ Blockmatic.
 
-[@blockmatic/eslint-config](./packages/eslint-config) combines shared configuration for building, linting, testing, formatting, and releasing libraries for Node and the browser. 
+This project combines shared configuration for building, linting, testing, formatting, and releasing libraries for Node and the browser. 
 
 ```bash
 yarn add --dev @blockmatic/eslint-config husky eslint prettier
