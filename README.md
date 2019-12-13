@@ -34,9 +34,9 @@ It is intended to be used within a project as a series of npm scripts.
      "lint": "eslint --ignore-path .gitignore .",
      "check-types": "tsc",
      "prettier": "prettier --ignore-path .gitignore --write \"**/*.+(js|json|ts|tsx)\"",
-     "format": "npm run prettier -- --write",
-     "check-format": "npm run prettier -- --list-different",
-     "validate": "npm run check-types && npm run check-format && npm run lint && npm run build"
+     "format": "yarn prettier -- --write",
+     "check-format": "yarn prettier -- --list-different",
+     "validate": "yarn check-types && yarn check-format && yarn lint && yarn build"
   },
   "lint-staged": {
     "*.{ts,tsx,js}": [
