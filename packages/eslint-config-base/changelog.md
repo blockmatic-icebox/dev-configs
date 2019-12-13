@@ -7,7 +7,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **eslint-config-base:** disable camel case names enforcement ([bcfaa4d](https://github.com/blockmatic/dev-scripts/commit/bcfaa4d))
+- **eslint-config-base:** disable camel case names enforcement ([bcfaa4d](https://github.com/blockmatic/dev-configs/commit/bcfaa4d))
 
 # 1.0.0 (2019-09-10)
 

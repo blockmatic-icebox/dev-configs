@@ -1,15 +1,14 @@
+const utils = require('./utils')
+
+const ifTs = (...arg) => utils.ifDevDep('typescript', ...arg)
+const ifReact = (...arg) => utils.ifAnyDep('react', ...arg)
+const ifReactNative = (...arg) => utils.ifAnyDep('react-native', ...arg)
+
 module.exports = {
   extends: [
     '@blockmatic/eslint-config-base',
-    '@blockmatic/eslint-config-react',
-    '@blockmatic/eslint-config-typescript',
+    ifTs('@blockmatic/eslint-config-typescript'),
+    ifReact('@blockmatic/eslint-config-react'),
+    ifReactNative('@blockmatic/eslint-config-react'),
   ],
-  parser: '@typescript-eslint/parser',
-  env: {
-    jest: true,
-  },
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module',
-  },
-};
+}

@@ -2,7 +2,7 @@
   "name": "@blockmatic/eslint-config",
   "version": "1.2.0",
   "description": "Combined ESLint config for Blockmatic",
-  "homepage": "https://github.com/blockmatic/dev-scripts#readme",
+  "homepage": "https://github.com/blockmatic/dev-configs#readme",
   "license": "MIT",
   "main": "index.js",
   "files": [
@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blockmatic/dev-scripts.git"
+    "url": "git+https://github.com/blockmatic/dev-configs.git"
   },
   "bugs": {
-    "url": "https://github.com/blockmatic/dev-scripts/issues"
+    "url": "https://github.com/blockmatic/dev-configs/issues"
   },
   "dependencies": {
     "@blockmatic/eslint-config-base": "^1.1.0",

@@ -7,7 +7,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- add semi:false to prettier config ([99f504e](https://github.com/blockmatic/dev-scripts/commit/99f504e))
+- add semi:false to prettier config ([99f504e](https://github.com/blockmatic/dev-configs/commit/99f504e))
 
 # 1.0.0 (2019-09-10)
 
@@ -17,7 +17,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- add semi:false to prettier config ([99f504e](https://github.com/blockmatic/dev-scripts/commit/99f504e))
+- add semi:false to prettier config ([99f504e](https://github.com/blockmatic/dev-configs/commit/99f504e))
 
 # 1.0.0 (2019-09-10)
 

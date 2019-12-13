@@ -87,7 +87,7 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-# dev-scripts generated files
+# dev-configs generated files
 cjs/
 esm/
 types/

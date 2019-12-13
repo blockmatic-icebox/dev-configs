@@ -5,7 +5,7 @@
   "description": "Blockmatic's base Prettier config",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blockmatic/dev-scripts.git"
+    "url": "git+https://github.com/blockmatic/dev-configs.git"
   },
   "main": "index.js",
   "devDependencies": {

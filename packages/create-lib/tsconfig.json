@@ -1,4 +1,0 @@
-{
-  "extends": "@blockmatic/dev-scripts/config/tsconfig.json",
-  "include": ["src"]
-}

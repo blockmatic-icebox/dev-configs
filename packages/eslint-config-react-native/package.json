@@ -1,0 +1,30 @@
+{
+  "name": "@blockmatic/eslint-config-react-native",
+  "version": "1.2.0",
+  "license": "MIT",
+  "description": "Blockmatic's ESLint config for React Native projects",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockmatic/dev-configs.git"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.x"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {
+    "@blockmatic/eslint-config-react": "^1.2.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-native-globals": "^0.1.2"
+  }
+}

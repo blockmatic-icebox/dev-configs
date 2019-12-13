@@ -5,7 +5,7 @@
   "description": "Blockmatic's ESLint config for React projects",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blockmatic/dev-scripts.git"
+    "url": "git+https://github.com/blockmatic/dev-configs.git"
   },
   "main": "index.js",
   "devDependencies": {
