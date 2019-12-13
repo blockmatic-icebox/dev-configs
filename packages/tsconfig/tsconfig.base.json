@@ -25,5 +25,5 @@
     "stripInternal": true,
     "target": "es5"
   },
-  "exclude": ["node_modules", "**/lib", "**/__tests__", "**/__fixtures__", "__dev"]
+  "exclude": ["node_modules", "**/__tests__", "**/__fixtures__", "__dev"]
 }
