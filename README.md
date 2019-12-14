@@ -112,7 +112,7 @@ We have a few guiding principles for this project.
 
 ## Contributing
 
-See https://developer.blockmatic.io 
+See https://developers.blockmatic.io 
 
 ### Running Tests locally
 
