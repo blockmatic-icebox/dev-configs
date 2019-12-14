@@ -53,6 +53,29 @@ It is intended to be used within a project as a series of npm scripts.
 }
 ```
 
+### .prettierrc.js 
+```
+module.exports = require('@blockmatic/prettier-config')
+```
+
+### .eslintrc.js 
+```
+module.exports = {
+  extends: [
+    '@blockmatic',
+  ]
+}
+
+```
+
+### tsconfig.json
+
+```
+{
+  "extends": "./node_modules/@blockmatic/tsconfig/tsconfig.app.json",
+}
+```
+
 ### Blockmatic shared configurations
 
 They can be installed separately and used by anyone should they opt to follow our standards.

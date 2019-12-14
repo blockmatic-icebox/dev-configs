@@ -4,9 +4,12 @@
   "description": "Combined ESLint config for Blockmatic",
   "homepage": "https://github.com/blockmatic/dev-configs#readme",
   "license": "MIT",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "files": [
-    "index.js"
+    "lib"
   ],
   "repository": {
     "type": "git",
