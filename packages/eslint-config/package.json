@@ -25,7 +25,9 @@
     "@typescript-eslint/eslint-plugin": "^1.11.0",
     "@typescript-eslint/parser": "^1.11.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4"
+    "eslint-plugin-react": "^7.12.4",
+    "lodash.has": "^4.5.2",
+    "read-pkg-up": "^7.0.1"
   },
   "devDependencies": {
     "eslint": "^5.16.0"
