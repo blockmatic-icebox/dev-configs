@@ -9,6 +9,6 @@ module.exports = {
     '@blockmatic/eslint-config-base',
     ifTs('@blockmatic/eslint-config-typescript'),
     ifReact('@blockmatic/eslint-config-react'),
-    ifReactNative('@blockmatic/eslint-config-react'),
-  ],
+    ifReactNative('@blockmatic/eslint-config-react')
+  ].filter(Boolean)
 }

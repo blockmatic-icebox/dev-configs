@@ -4,7 +4,7 @@ module.exports = {
     node: true,
     amd: false,
     mocha: false,
-    jasmine: false,
+    jasmine: false
   },
   globals: {},
   rules: {
@@ -106,7 +106,7 @@ module.exports = {
     // disallow usage of configurable warning terms in comments: e.g. todo
     'no-warning-comments': [
       0,
-      { terms: ['todo', 'fixme', 'xxx'], location: 'start' },
+      { terms: ['todo', 'fixme', 'xxx'], location: 'start' }
     ],
     // disallow use of the with statement
     'no-with': 2,
@@ -302,8 +302,8 @@ module.exports = {
       {
         anonymous: 'never',
         named: 'never',
-        asyncArrow: 'always',
-      },
+        asyncArrow: 'always'
+      }
     ],
     // require or disallow spaces inside parentheses
     'space-in-parens': 0,
@@ -317,8 +317,8 @@ module.exports = {
       'always',
       {
         exceptions: ['-', '+'],
-        markers: ['=', '!'], // space here to support sprockets directives
-      },
+        markers: ['=', '!'] // space here to support sprockets directives
+      }
     ],
     // require regex literals to be wrapped in parentheses
     'wrap-regex': 0,
@@ -345,6 +345,6 @@ module.exports = {
     // disallow declaration of variables that are not used in the code
     'no-unused-vars': [2, { vars: 'local', args: 'after-used' }],
     // disallow use of variables before they are defined
-    'no-use-before-define': [2, { functions: false }],
-  },
+    'no-use-before-define': [2, { functions: false }]
+  }
 }

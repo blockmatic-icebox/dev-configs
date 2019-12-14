@@ -3,7 +3,7 @@ const readPkgUp = require('read-pkg-up')
 const has = require('lodash.has')
 
 const pkg = readPkgUp.sync({
-  cwd: fs.realpathSync(process.cwd()),
+  cwd: fs.realpathSync(process.cwd())
 }).packageJson
 
 const hasPkgProp = prop => has(pkg, prop)
@@ -30,5 +30,5 @@ module.exports = {
   ifPeerDep,
   ifDep,
   ifDevDep,
-  ifAnyDep,
+  ifAnyDep
 }

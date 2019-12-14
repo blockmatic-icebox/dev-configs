@@ -1,7 +1,7 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    sourceType: 'module',
+    sourceType: 'module'
   },
   plugins: ['@typescript-eslint'],
   // camelcase, indent, no-array-constructor, and no-unused-vars are all
@@ -20,6 +20,6 @@ module.exports = {
     '@typescript-eslint/no-array-constructor': 'error',
     // no-unused-vars interference fix.
     'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': 'warn',
-  },
+    '@typescript-eslint/no-unused-vars': 'warn'
+  }
 }

@@ -3,7 +3,7 @@ module.exports = {
 
   extends: [
     'plugin:@typescript-eslint/recommended',
-    '@blockmatic/eslint-config-react',
+    '@blockmatic/eslint-config-react'
   ],
 
   plugins: ['@typescript-eslint', 'react-native'],
@@ -29,12 +29,12 @@ module.exports = {
           '.ios.ts',
           '.native.tsx',
           '.android.tsx',
-          '.ios.tsx',
+          '.ios.tsx'
         ],
-        moduleDirectory: ['node_modules', 'src'],
-      },
-    },
+        moduleDirectory: ['node_modules', 'src']
+      }
+    }
   },
 
-  rules: [],
+  rules: []
 }

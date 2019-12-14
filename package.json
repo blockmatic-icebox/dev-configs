@@ -9,10 +9,15 @@
   "scripts": {
     "test": "lerna run test --stream",
     "build": "lerna run build --stream",
-    "lint": "lerna run lint --stream",
     "bootstrap": "lerna bootstrap --use-workspaces",
     "release": "env-cmd lerna publish",
-    "diff": "lerna diff"
+    "diff": "lerna diff",
+    "lint": "eslint --ignore-path .gitignore .",
+    "check-types": "tsc",
+    "prettier": "prettier --ignore-path .gitignore --write \"**/*.+(js|json|ts|tsx)\"",
+    "format": "yarn prettier -- --write",
+    "check-format": "yarn prettier -- --list-different",
+    "validate": "yarn check-types && yarn check-format && yarn lint && yarn build"
   },
   "workspaces": [
     "packages/*"

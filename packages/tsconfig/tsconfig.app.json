@@ -9,9 +9,7 @@
     "noEmit": true,
     "target": "es5",
     "skipLibCheck": true,
-    "baseUrl": "./src",
+    "baseUrl": "./src"
   },
-  "include": [
-    "src"
-  ],
+  "include": ["src"]
 }

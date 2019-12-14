@@ -1,13 +1,13 @@
 module.exports = {
   env: {
-    es6: true,
+    es6: true
   },
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
     ecmaFeatures: {
-      jsx: true,
-    },
+      jsx: true
+    }
   },
   rules: {
     // require parens in arrow function arguments
@@ -43,6 +43,6 @@ module.exports = {
     // disallow trailing commas in object literals
     'comma-dangle': [2, 'always-multiline'],
     // disallow use of semicolons instead of ASI
-    semi: [2, 'never'],
-  },
+    semi: [2, 'never']
+  }
 }

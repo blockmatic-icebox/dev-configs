@@ -2,8 +2,8 @@ module.exports = {
   plugins: ['react', 'jsx-a11y', 'react-hooks'],
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
-    },
+      jsx: true
+    }
   },
   extends: ['plugin:jsx-a11y/recommended'],
   rules: {
@@ -67,15 +67,15 @@ module.exports = {
           '/^on.+$/',
           'everything-else',
           '/^render.+$/',
-          'render',
-        ],
-      },
-    ],
+          'render'
+        ]
+      }
+    ]
   },
   settings: {
     react: {
       pragma: 'React',
-      version: 'detect',
-    },
-  },
+      version: 'detect'
+    }
+  }
 }
