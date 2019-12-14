@@ -5,7 +5,7 @@
   "description": "Blockmatic's base ESLint config",
   "main": "index.js",
   "peerDependencies": {
-    "eslint": ">=5.x"
+    "eslint": ">=6.x"
   },
   "repository": {
     "type": "git",

@@ -8,9 +8,6 @@
     "url": "git+https://github.com/blockmatic/dev-configs.git"
   },
   "main": "index.js",
-  "devDependencies": {
-    "prettier": "^1.18.2"
-  },
   "peerDependencies": {
     "prettier": "1.x"
   },

@@ -13,11 +13,8 @@
   "scripts": {
     "test": "./run-tests.sh"
   },
-  "devDependencies": {
-    "typescript": "3.5"
-  },
   "peerDependencies": {
-    "typescript": "3.5"
+    "typescript": "3.7"
   },
   "publishConfig": {
     "access": "public"
