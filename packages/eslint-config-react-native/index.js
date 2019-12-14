@@ -2,11 +2,12 @@ module.exports = {
   parser: ['@typescript-eslint/parser'],
 
   extends: [
-    'plugin:@typescript-eslint/recommended',
+    '@blockmatic/eslint-config-typescript',
+    '@blockmatic/eslint-config-base',
     '@blockmatic/eslint-config-react'
   ],
 
-  plugins: ['@typescript-eslint', 'react-native'],
+  plugins: ['react-native'],
 
   env: ['es6', 'node', 'jest', 'react-native/react-native'],
 
@@ -34,7 +35,5 @@ module.exports = {
         moduleDirectory: ['node_modules', 'src']
       }
     }
-  },
-
-  rules: []
+  }
 }

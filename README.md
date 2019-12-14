@@ -74,8 +74,8 @@ module.exports = {
 {
   "extends": "./node_modules/@blockmatic/tsconfig/tsconfig.app.json",
   "compilerOptions": {
-    "baseUrl": "./src"
-    "rootDirs": ["./src"],
+    "baseUrl": "./src",
+    "rootDirs": ["./src"]
   },
   "include": ["./src"]
 }
