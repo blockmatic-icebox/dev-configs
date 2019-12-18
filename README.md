@@ -31,9 +31,9 @@ It is intended to be used within a project as a series of npm scripts.
 {
   "scripts": {
     "build": "babel src --extensions .js,.ts,.tsx --out-dir dist",
-    "lint": "eslint --ignore-path .gitignore '**/*.+(js|ts|tsx)'",
+    "lint": "eslint --ignore-path .gitignore \"**/*.+(js|ts|tsx)\"",
     "check-types": "tsc",
-    "format": "prettier --ignore-path .gitignore --write '**/*.+(js|json|ts|tsx)'",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json|ts|tsx)\"",
     "check-format": "yarn prettier --list-different",
     "validate": "yarn check-types && yarn check-format && yarn lint && yarn build"
   },
