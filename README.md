@@ -22,7 +22,7 @@ A monorepo of base configs to speed up development @ Blockmatic.
 This project combines shared configuration for building, linting, testing, formatting, and releasing libraries for Node and the browser. 
 
 ```bash
-yarn add -D @blockmatic/eslint-config @blockmatic/prettier-config @blockmatic/tsconfig husky eslint prettier lint-staged
+yarn add -D @blockmatic/eslint-config @blockmatic/prettier-config @blockmatic/tsconfig husky eslint prettier lint-staged concurrently
 ```
 
 It is intended to be used within a project as a series of npm scripts.
@@ -35,7 +35,7 @@ It is intended to be used within a project as a series of npm scripts.
     "check-types": "tsc",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json|ts|tsx)\"",
     "check-format": "yarn prettier --list-different",
-    "validate": "yarn check-types && yarn check-format && yarn lint && yarn build"
+    "validate": "concurrently -k -p \"yarn check-types\" && \"yarn check-format\" && \"yarn lint\" && \"yarn build\""
   },
   "lint-staged": {
     "*.{ts,tsx,js}": [
