@@ -142,7 +142,7 @@ lerna publish --conventional-commits --registry=https://registry.npmjs.com
 
 ## Blockmatic
 
-Blockmatic is building robust ecosystem of people and tools for development of decentralized applications.
+Blockmatic is building a robust ecosystem of people and tools for development of decentralized applications.
 
 [blockmatic.io](https://blockmatic.io)
 
