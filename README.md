@@ -41,7 +41,6 @@ It is intended to be used within a project as a series of npm scripts.
     "*.{ts,tsx,js}": [
       "prettier --write",
       "eslint --fix",
-      "git add"
     ]
   },
   "husky": {
