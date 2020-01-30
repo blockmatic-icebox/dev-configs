@@ -27,15 +27,18 @@ yarn add -D @blockmatic/eslint-config @blockmatic/prettier-config @blockmatic/ts
 
 It is intended to be used within a project as a series of npm scripts.
 
+
+## ReactJS Config
+
 ```json
 {
   "scripts": {
-    "build": "babel src --extensions .js,.ts,.tsx --out-dir dist",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "lint": "eslint --ignore-path .gitignore \"**/*.+(js|ts|tsx)\"",
-    "check-types": "tsc",
-    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json|ts|tsx)\"",
-    "check-format": "yarn prettier --list-different",
-    "validate": "concurrently -k -p \"yarn check-types\" && \"yarn check-format\" && \"yarn lint\" && \"yarn build\""
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json|ts|tsx)\""
   },
   "lint-staged": {
     "*.{ts,tsx,js}": [
@@ -78,6 +81,59 @@ module.exports = {
   "include": ["./src"]
 }
 
+```
+
+## NodeJS Config
+
+Also available as template https://github.com/blockmatic/nodejs-template/
+
+```json
+"scripts": {
+    "dev": "ts-node-dev --no-deps --respawn src/index",
+    "build": "tsc",
+    "lint": "eslint --ignore-path .gitignore \"**/*.+(js|ts|tsx)\"",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json|ts|tsx)\""
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+```
+
+### .prettierrc.js 
+```
+module.exports = require('@blockmatic/prettier-config')
+```
+
+### .eslintrc.js 
+```
+module.exports = {
+  extends: [
+    '@blockmatic',
+  ]
+}
+
+```
+
+### tsconfig.json
+
+```
+{
+  "extends": "./node_modules/@blockmatic/tsconfig/tsconfig.nodejs.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "rootDirs": ["src/"],
+    "outDir": "dist"
+  },
+  "exclude": ["node_modules"]
+}
 ```
 
 ### Blockmatic shared configurations
