@@ -5,7 +5,6 @@
     "lib": ["esnext"],
     "declaration": false,
     "sourceMap": true,
-    "module": "commonjs",
-    "outDir": "dist"
+    "module": "commonjs"
   }
 }
