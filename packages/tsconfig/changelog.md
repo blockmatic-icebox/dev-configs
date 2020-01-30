@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.1](https://github.com/blockmatic/dev-configs/compare/@blockmatic/tsconfig@1.7.0...@blockmatic/tsconfig@1.7.1) (2020-01-30)
+
+
+### Bug Fixes
+
+* **tsconfig:** nodejs outdir ([f326009](https://github.com/blockmatic/dev-configs/commit/f3260099ac85c66ae7e683ea6402ae50c35c01ec))
+
+
+
+
+
 ## [1.2.3](https://github.com/blockmatic/dev-configs/compare/@blockmatic/tsconfig@1.2.0...@blockmatic/tsconfig@1.2.3) (2019-10-14)
 
 **Note:** Version bump only for package @blockmatic/tsconfig
