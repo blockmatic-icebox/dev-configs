@@ -2,3 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.2.0](https://github.com/blockmatic/dev-configs/compare/@blockmatic/eslint-config-typescript@1.1.2...@blockmatic/eslint-config-typescript@1.2.0) (2020-02-11)
+
+
+### Features
+
+* **eslint-typescript:** disable @typescript-eslint/camelcase ([bbdd307](https://github.com/blockmatic/dev-configs/commit/bbdd3070ce9e6484bd7df7c9cbc365b545232560))
