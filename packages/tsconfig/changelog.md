@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/blockmatic/dev-configs/compare/@blockmatic/tsconfig@1.7.3...@blockmatic/tsconfig@1.8.0) (2020-03-28)
+
+
+### Features
+
+* **tsconfig:** remove noUnusedLocals noUnusedParameters ([1997f1f](https://github.com/blockmatic/dev-configs/commit/1997f1f17671a44d2f72405f07a8efd4f0dd769d))
+
+
+
+
+
 ## [1.7.3](https://github.com/blockmatic/dev-configs/compare/@blockmatic/tsconfig@1.7.2...@blockmatic/tsconfig@1.7.3) (2020-02-11)
 
 **Note:** Version bump only for package @blockmatic/tsconfig
