@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/blockmatic/dev-configs/compare/@blockmatic/prettier-config@1.2.3...@blockmatic/prettier-config@1.3.0) (2020-03-30)
+
+
+### Features
+
+* **prettier:** use v2.0 ([4b69335](https://github.com/blockmatic/dev-configs/commit/4b693359ce4735b37aadb75aab88d3849b12b265))
+
+
+
+
+
 ## 1.0.3 (2019-10-14)
 
 ### Bug Fixes
