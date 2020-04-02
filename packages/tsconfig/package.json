@@ -14,7 +14,7 @@
     "test": "./run-tests.sh"
   },
   "peerDependencies": {
-    "typescript": "3.7"
+    "typescript": "^3.7"
   },
   "publishConfig": {
     "access": "public"
