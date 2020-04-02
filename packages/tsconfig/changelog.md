@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.2](https://github.com/blockmatic/dev-configs/compare/@blockmatic/tsconfig@1.8.1...@blockmatic/tsconfig@1.8.2) (2020-04-02)
+
+
+### Bug Fixes
+
+* **tsconfig:** update peerDependencies ([f533184](https://github.com/blockmatic/dev-configs/commit/f5331845063e8a1286073f149caa75f72cfb0ef4))
+
+
+
+
+
 ## [1.8.1](https://github.com/blockmatic/dev-configs/compare/@blockmatic/tsconfig@1.8.0...@blockmatic/tsconfig@1.8.1) (2020-03-30)
 
 **Note:** Version bump only for package @blockmatic/tsconfig
