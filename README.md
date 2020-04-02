@@ -21,7 +21,7 @@ A monorepo of base configs to speed up development @ Blockmatic.
 This project combines shared configuration for building, linting, testing, formatting, and releasing libraries for Node and the browser. 
 
 ```bash
-yarn add -D @blockmatic/eslint-config @blockmatic/prettier-config @blockmatic/tsconfig husky eslint prettier lint-staged
+yarn add -D @blockmatic/eslint-config @blockmatic/prettier-config @blockmatic/tsconfig typescript husky eslint prettier lint-staged
 ```
 
 It is intended to be used within a project as a series of npm scripts.
