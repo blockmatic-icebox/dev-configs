@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.4](https://github.com/blockmatic/dev-configs/compare/@blockmatic/eslint-config-react@1.3.3...@blockmatic/eslint-config-react@1.3.4) (2020-06-14)
+
+**Note:** Version bump only for package @blockmatic/eslint-config-react
+
+
+
+
+
 ## [1.3.3](https://github.com/blockmatic/dev-configs/compare/@blockmatic/eslint-config-react@1.3.2...@blockmatic/eslint-config-react@1.3.3) (2020-06-05)
 
 

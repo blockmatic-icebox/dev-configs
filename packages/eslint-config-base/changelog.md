@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/blockmatic/dev-configs/compare/@blockmatic/eslint-config-base@1.3.0...@blockmatic/eslint-config-base@1.4.0) (2020-06-14)
+
+
+### Features
+
+* no-unused-expressions allowShortCircuit and allowTernary ([42102b7](https://github.com/blockmatic/dev-configs/commit/42102b7cd66fe04424c97bc171965ee43e898bd9))
+
+
+
+
+
 ## 1.0.1 (2019-10-20)
 
 ### Bug Fixes
