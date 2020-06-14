@@ -98,7 +98,10 @@ module.exports = {
     // restrict what can be thrown as an exception
     'no-throw-literal': 2,
     // disallow usage of expressions in statement position
-    'no-unused-expressions': 2,
+    'no-unused-expressions': [
+      'error',
+      { allowShortCircuit: true, allowTernary: true }
+    ],
     // disallow unnecessary .call() and .apply()
     'no-useless-call': 0,
     // disallow use of void operator
