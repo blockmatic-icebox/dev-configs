@@ -1,6 +1,6 @@
 {
   "name": "@blockmatic/eslint-config-react",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "license": "MIT",
   "description": "Blockmatic's ESLint config for React projects",
   "repository": {
