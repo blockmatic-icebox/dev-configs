@@ -135,6 +135,20 @@ module.exports = {
 }
 ```
 
+## Suggested VSCode Settings
+
+```
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.alwaysShowStatus": true
+}
+
+```
+
 ### Blockmatic shared configurations
 
 They can be installed separately and used by anyone should they opt to follow our standards.
