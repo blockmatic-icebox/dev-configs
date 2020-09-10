@@ -26,7 +26,7 @@ It is intended to be used within a project as a series of npm scripts.
   "lint-staged": {
     "*.{ts,tsx,js}": [
       "prettier --write",
-      "eslint --fix",
+      "eslint --fix"
     ]
   },
   "husky": {
