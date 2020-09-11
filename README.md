@@ -2,7 +2,7 @@
 
 A monorepo of base configs to speed up development @ Blockmatic.
 
-Shared configurations for building, linting, testing, formatting, and releasing libraries for Node and the browser. 
+This package contains everything you need for building, linting, testing, formatting, and releasing libraries for React Native, Node and the browser.. 
 
 ```bash
 yarn add -D @blockmatic/eslint-config @blockmatic/prettier-config @blockmatic/tsconfig typescript husky eslint@6 prettier lint-staged
