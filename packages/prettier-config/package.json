@@ -1,6 +1,6 @@
 {
   "name": "@blockmatic/prettier-config",
-  "version": "1.3.4",
+  "version": "1.4.0",
   "license": "MIT",
   "description": "Blockmatic's base Prettier config",
   "repository": {
