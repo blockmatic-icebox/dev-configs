@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/blockmatic/dev-configs/compare/@blockmatic/eslint-config-typescript@1.3.0...@blockmatic/eslint-config-typescript@1.4.0) (2020-12-12)
+
+
+### Features
+
+* eslint 7 ([1f54792](https://github.com/blockmatic/dev-configs/commit/1f5479292c8a62815e0d39cb770342fa85e1fc71))
+
+
+
+
+
 # [1.3.0](https://github.com/blockmatic/dev-configs/compare/@blockmatic/eslint-config-typescript@1.2.5...@blockmatic/eslint-config-typescript@1.3.0) (2020-12-06)
 
 
