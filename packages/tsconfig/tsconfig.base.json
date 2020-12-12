@@ -21,5 +21,6 @@
     "stripInternal": true,
     "target": "es5"
   },
-  "exclude": ["node_modules", "**/__tests__", "**/__fixtures__", "__dev"]
+  "exclude": ["node_modules", "**/__tests__", "**/__fixtures__", "__dev"],
+  "include": ["src/**/*.json", "src/**/*.graphql"]
 }

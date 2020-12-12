@@ -30,7 +30,7 @@
     "read-pkg-up": "^7.0.1"
   },
   "peerDependencies": {
-    "eslint": ">=6.x"
+    "eslint": ">=7.x"
   },
   "publishConfig": {
     "access": "public"

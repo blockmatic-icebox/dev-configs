@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/blockmatic/dev-configs/compare/@blockmatic/eslint-config-typescript@1.2.5...@blockmatic/eslint-config-typescript@1.3.0) (2020-12-06)
+
+
+### Features
+
+* **eslint-config-typescript:** @typescript-eslint/no-unused-var { argsIgnorePattern: "^_" } ([f8aa9ba](https://github.com/blockmatic/dev-configs/commit/f8aa9ba5eef4419dc003bed66af618dfac99d5e3))
+
+
+
+
+
 ## [1.2.5](https://github.com/blockmatic/dev-configs/compare/@blockmatic/eslint-config-typescript@1.2.4...@blockmatic/eslint-config-typescript@1.2.5) (2020-06-14)
 
 **Note:** Version bump only for package @blockmatic/eslint-config-typescript
