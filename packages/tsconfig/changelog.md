@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.1](https://github.com/blockmatic/dev-configs/compare/@blockmatic/tsconfig@1.9.0...@blockmatic/tsconfig@1.9.1) (2020-12-22)
+
+
+### Bug Fixes
+
+* remove include and exclude ([a57cd28](https://github.com/blockmatic/dev-configs/commit/a57cd28bbd12dea1c8814a93a9947b2285130651))
+
+
+
+
+
 # [1.9.0](https://github.com/blockmatic/dev-configs/compare/@blockmatic/tsconfig@1.8.5...@blockmatic/tsconfig@1.9.0) (2020-12-12)
 
 

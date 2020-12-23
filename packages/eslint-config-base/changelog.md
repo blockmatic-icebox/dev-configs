@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.1](https://github.com/blockmatic/dev-configs/compare/@blockmatic/eslint-config-base@1.5.0...@blockmatic/eslint-config-base@1.5.1) (2020-12-22)
+
+**Note:** Version bump only for package @blockmatic/eslint-config-base
+
+
+
+
+
 # [1.5.0](https://github.com/blockmatic/dev-configs/compare/@blockmatic/eslint-config-base@1.4.1...@blockmatic/eslint-config-base@1.5.0) (2020-12-12)
 
 
