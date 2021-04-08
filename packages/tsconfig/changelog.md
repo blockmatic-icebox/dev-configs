@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.10.0](https://github.com/blockmatic/dev-configs/compare/@blockmatic/tsconfig@1.9.1...@blockmatic/tsconfig@1.10.0) (2020-12-23)
+
+
+### Features
+
+* allow downlevelIteration ([f3ad8b6](https://github.com/blockmatic/dev-configs/commit/f3ad8b62c7a97a4da7ffcdd84607d82a5b51567f))
+
+
+
+
+
 ## [1.9.1](https://github.com/blockmatic/dev-configs/compare/@blockmatic/tsconfig@1.9.0...@blockmatic/tsconfig@1.9.1) (2020-12-22)
 
 

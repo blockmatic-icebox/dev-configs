@@ -2,14 +2,13 @@
 
 A monorepo of base configs to speed up development @ Blockmatic.
 
-This package contains everything you need for building, linting, testing, formatting, and releasing libraries for React Native, Node and the browser.. 
+This package contains everything you need for building, linting, testing, formatting, and releasing libraries for React Native, Node and the browser..
 
 ```bash
-yarn add -D @blockmatic/eslint-config @blockmatic/prettier-config @blockmatic/tsconfig typescript husky eslint@6 prettier lint-staged
+yarn add -D @blockmatic/eslint-config @blockmatic/prettier-config @blockmatic/tsconfig typescript husky eslint prettier lint-staged
 ```
 
 It is intended to be used within a project as a series of npm scripts.
-
 
 ## ReactJS Config
 
@@ -37,12 +36,14 @@ It is intended to be used within a project as a series of npm scripts.
 }
 ```
 
-### .prettierrc.js 
+### .prettierrc.js
+
 ```
 module.exports = require('@blockmatic/prettier-config')
 ```
 
-### .eslintrc.js 
+### .eslintrc.js
+
 ```
 module.exports = {
   extends: [
@@ -50,9 +51,7 @@ module.exports = {
   ]
 }
 
-```
-
-### tsconfig.json
+```### tsconfig.json
 
 ```
 {
@@ -64,9 +63,7 @@ module.exports = {
   "include": ["./src"]
 }
 
-```
-
-## NodeJS Config
+```## NodeJS Config
 
 Also available as template https://github.com/blockmatic/nodejs-template/
 
@@ -90,12 +87,14 @@ Also available as template https://github.com/blockmatic/nodejs-template/
   }
 ```
 
-### .prettierrc.js 
+### .prettierrc.js
+
 ```
 module.exports = require('@blockmatic/prettier-config')
 ```
 
-### .eslintrc.js 
+### .eslintrc.js
+
 ```
 module.exports = {
   extends: [
@@ -103,9 +102,7 @@ module.exports = {
   ]
 }
 
-```
-
-### tsconfig.json
+```### tsconfig.json
 
 ```
 {
@@ -131,9 +128,7 @@ module.exports = {
   "eslint.alwaysShowStatus": true
 }
 
-```
-
-### Blockmatic shared configurations
+```### Blockmatic shared configurations
 
 They can be installed separately and used by anyone should they opt to follow our standards.
 
@@ -163,7 +158,7 @@ We have a few guiding principles for this project.
 
 ## Contributing
 
-See https://developers.blockmatic.io 
+See https://developers.blockmatic.io
 
 ### Running Tests locally
 

@@ -1,7 +1,7 @@
 {
   "name": "@blockmatic/eslint-config",
   "version": "1.5.0",
-  "description": "Combined ESLint config for Blockmatic",
+  "description": "ESLint configurations for React, React Native and Node following Blockmatic conventions",
   "homepage": "https://github.com/blockmatic/dev-configs#readme",
   "license": "MIT",
   "main": "./lib/index.js",
@@ -22,10 +22,10 @@
     "@blockmatic/eslint-config-base": "^1.6.0",
     "@blockmatic/eslint-config-react": "^1.5.0",
     "@blockmatic/eslint-config-typescript": "^1.5.0",
-    "@typescript-eslint/eslint-plugin": "^2.11.0",
-    "@typescript-eslint/parser": "^2.11.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.17.0",
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.2",
     "lodash.has": "^4.5.2",
     "read-pkg-up": "^7.0.1"
   },
