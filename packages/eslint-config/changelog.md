@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/blockmatic/dev-configs/compare/@blockmatic/eslint-config@1.5.0...@blockmatic/eslint-config@2.0.0) (2021-04-08)
+
+
+### Features
+
+* update dependencies ([da7035d](https://github.com/blockmatic/dev-configs/commit/da7035d3107ede1d7128046ab66a648b636b2c47))
+
+
+
+
+
 # [1.5.0](https://github.com/blockmatic/dev-configs/compare/@blockmatic/eslint-config@1.4.1...@blockmatic/eslint-config@1.5.0) (2020-12-23)
 
 
