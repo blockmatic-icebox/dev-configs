@@ -104,7 +104,9 @@ module.exports = {
   ]
 }
 
-```### tsconfig.json
+```
+
+### tsconfig.json
 
 ```
 {
