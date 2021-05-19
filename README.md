@@ -65,7 +65,9 @@ module.exports = {
   "include": ["./src"]
 }
 
-```## NodeJS Config
+``` 
+
+## NodeJS Config
 
 Also available as template https://github.com/blockmatic/nodejs-template/
 
