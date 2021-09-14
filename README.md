@@ -5,7 +5,7 @@ A monorepo of base configs to speed up development @ Blockmatic.
 This package contains everything you need for building, linting, testing, formatting, and releasing libraries for React Native, Node and the browser..
 
 ```bash
-yarn add -D @blockmatic/eslint-config @blockmatic/prettier-config @blockmatic/tsconfig typescript husky eslint prettier lint-staged
+yarn add -D @blockmatic/eslint-config @blockmatic/prettier-config typescript husky eslint prettier lint-staged
 ```
 
 It is intended to be used within a project as a series of npm scripts.
@@ -53,20 +53,6 @@ module.exports = {
 
 ```
 
-### tsconfig.json
-
-```
-{
-  "extends": "./node_modules/@blockmatic/tsconfig/tsconfig.app.json",
-  "compilerOptions": {
-    "baseUrl": "./src",
-    "rootDirs": ["./src"]
-  },
-  "include": ["./src"]
-}
-
-``` 
-
 ## NodeJS Config
 
 Also available as template https://github.com/blockmatic/nodejs-template/
@@ -108,20 +94,6 @@ module.exports = {
 
 ```
 
-### tsconfig.json
-
-```
-{
-  "extends": "./node_modules/@blockmatic/tsconfig/tsconfig.nodejs.json",
-  "compilerOptions": {
-    "baseUrl": "./src",
-    "rootDirs": ["src/"],
-    "outDir": "dist"
-  },
-  "exclude": ["node_modules"]
-}
-```
-
 ## Suggested VSCode Settings
 
 ```
@@ -143,7 +115,6 @@ They can be installed separately and used by anyone should they opt to follow ou
 - [@blockmatic/eslint-config-react](./packages/eslint-config-react)
 - [@blockmatic/eslint-config-typescript](./packages/eslint-config-typescript)
 - [@blockmatic/prettier-config](./packages/prettier-config)
-- [@blockmatic/tsconfig](./packages/tsconfig)
 
 ## Methodology
 
