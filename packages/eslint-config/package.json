@@ -1,6 +1,6 @@
 {
   "name": "@blockmatic/eslint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "ESLint configurations for React, React Native and Node following Blockmatic conventions",
   "homepage": "https://github.com/blockmatic/dev-configs#readme",
   "license": "MIT",
@@ -19,9 +19,9 @@
     "url": "https://github.com/blockmatic/dev-configs/issues"
   },
   "dependencies": {
-    "@blockmatic/eslint-config-base": "^2.0.0",
-    "@blockmatic/eslint-config-react": "^2.0.0",
-    "@blockmatic/eslint-config-typescript": "^2.0.0",
+    "@blockmatic/eslint-config-base": "^2.0.1",
+    "@blockmatic/eslint-config-react": "^2.0.1",
+    "@blockmatic/eslint-config-typescript": "^2.0.1",
     "@typescript-eslint/eslint-plugin": "^4.21.0",
     "@typescript-eslint/parser": "^4.21.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",

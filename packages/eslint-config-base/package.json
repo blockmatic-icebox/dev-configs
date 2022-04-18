@@ -1,6 +1,6 @@
 {
   "name": "@blockmatic/eslint-config-base",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "description": "Blockmatic's ESLint base config",
   "main": "index.js",
