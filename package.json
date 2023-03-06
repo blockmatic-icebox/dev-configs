@@ -23,16 +23,16 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.21.0",
-    "@typescript-eslint/parser": "^4.21.0",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
     "env-cmd": "^10.1.0",
-    "eslint": "^7.23.0",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.23.2",
-    "husky": "^6.0.0",
-    "lerna": "^4.0.0",
-    "prettier": "^2.2.1",
-    "typescript": "4.2"
+    "eslint": "^8.35.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "husky": "^8.0.3",
+    "lerna": "^6.5.1",
+    "prettier": "^2.8.4",
+    "typescript": "4.9"
   },
   "resolutions": {
     "lodash": ">=4.17.12",
@@ -51,6 +51,6 @@
     }
   },
   "dependencies": {
-    "lint-staged": "^10.5.4"
+    "lint-staged": "^13.1.2"
   }
 }
